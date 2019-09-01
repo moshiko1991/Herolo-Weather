@@ -1,0 +1,51 @@
+.days-container {
+  text-align: center;
+  color: white;
+  margin: 10px; }
+
+.days-container .days {
+  margin: 20px;
+  padding: 5px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  text-align: left;
+  padding-left: 5%; }
+
+#icons {
+  padding-left: 20%;
+  font-size: 4em; }
+
+#arrow-icon {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 25px; }
+
+@media only screen and (min-width: 768px) {
+  .days-container {
+    display: flex;
+    text-align: center;
+    color: white;
+    margin: 10px; }
+
+  .days-container .days {
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    text-align: left;
+    padding-left: 5%; }
+
+  #icons {
+    padding-left: 20%;
+    font-size: 4em; }
+
+  #arrow-icon {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 317px; } }
+
+/*# sourceMappingURL=daysContainer.css.map */

@@ -1,0 +1,69 @@
+$text-color: white;
+$box-width-mobile: 150px;
+$box-width-laptop: 200px;
+$icon-size: 4em;
+$margin-10: 10px;
+$px-5: 5px;
+
+
+.days-container{
+    text-align: center;
+    color: $text-color; 
+    margin: $margin-px;   
+}
+
+.days-container .days{
+    margin: 20px;
+    padding: $padding-5;
+    width: $box-width-mobile;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    display: inline-block;
+    text-align: left;
+    padding-left: $px-5;
+}
+
+
+#icons{
+    padding-left: 20%;
+    font-size: $icon-size;
+}
+
+#arrow-icon{
+    color: $text-color;
+    margin-top: $margin-px;
+    margin-bottom: 25px;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    .days-container{
+        display: flex;
+        text-align: center;
+        color: $text-color; 
+        margin: $margin-px;   
+    }
+    
+    .days-container .days{
+        margin: 20px;
+        padding: $px-5;
+        width: $box-width-laptop;
+        border-radius: $px-5;
+        background-color: rgba(255, 255, 255, 0.2); 
+        display: inline-block;
+        text-align: left;
+        padding-left: $px-5;
+    }
+    
+    #icons{
+        padding-left: 20%;
+        font-size: $icon-size;
+    }
+
+    #arrow-icon{
+        color: white;
+        margin-top: $margin-px;
+        margin-bottom: 317px;
+    }
+}

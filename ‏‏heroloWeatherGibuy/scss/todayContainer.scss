@@ -1,0 +1,33 @@
+$text-color: white;
+$box-width: 150px;
+
+.today-container{
+    text-align: center;
+    color: $text-color;
+    display: inline-block;
+    width: $box-width;
+    margin: 5px;
+}
+
+.today-container p {
+    margin: 5px;
+    text-align: left;
+}
+
+.today-city-name{
+    font-size: 1.5em;
+}
+
+.today-day{
+    font-size: 0.8em;
+}
+
+.today-temp{
+    display: inline-block;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.today-condition{
+    font-size: 1.2em;
+}

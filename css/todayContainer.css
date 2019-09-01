@@ -1,0 +1,26 @@
+.today-container {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  width: 150px;
+  margin: 5px; }
+
+.today-container p {
+  margin: 5px;
+  text-align: left; }
+
+.today-city-name {
+  font-size: 1.5em; }
+
+.today-day {
+  font-size: 0.8em; }
+
+.today-temp {
+  display: inline-block;
+  text-align: center;
+  font-size: 4.5em; }
+
+.today-condition {
+  font-size: 1.2em; }
+
+/*# sourceMappingURL=todayContainer.css.map */

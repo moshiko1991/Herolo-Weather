@@ -1,0 +1,21 @@
+.main-container {
+  display: inline-block;
+  color: white;
+  width: 230px;
+  border-radius: 15px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.search-box {
+  text-align: center;
+  background: none;
+  border: none; }
+
+.search-box::placeholder {
+  color: black; }
+
+.main-container i {
+  margin: 5px;
+  color: black; }
+
+/*# sourceMappingURL=mainContainer.css.map */

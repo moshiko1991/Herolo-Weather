@@ -1,0 +1,32 @@
+$text-color: white;
+$text-color-search: black;
+$box-width: 230px;
+
+
+.main-container{
+    display: inline-block;
+    color: $text-color;
+    width: $box-width;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box{
+    text-align: center;
+    background: none;
+    border: none;
+    
+}
+
+.search-box::placeholder {
+    color:$text-color-search;
+  }
+
+  .main-container i{
+      margin: 5px;
+      color:$text-color-search;
+  }
+
+  
+  
