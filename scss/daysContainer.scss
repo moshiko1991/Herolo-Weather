@@ -3,29 +3,30 @@ $box-width-mobile: 150px;
 $box-width-laptop: 200px;
 $icon-size: 4em;
 $margin-px: 10px;
-$px-5: 5px;
+$px-10: 10px;
 
 
 .days-container{
     text-align: center;
     color: $text-color; 
-    margin: $px-5;   
+    margin: $px-10;   
 }
 
 .days-container .days{
     margin: 20px;
-    padding: $px-5;
+    padding: $px-10;
     width: $box-width-mobile;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.2); 
     display: inline-block;
     text-align: left;
-    padding-left: $px-5;
+    padding-left: $px-10;
 }
 
 
-#icons{
-    padding-left: 20%;
+.icons{
+    display: block;
+    text-align: center;
     font-size: $icon-size;
 }
 
@@ -47,23 +48,24 @@ $px-5: 5px;
     
     .days-container .days{
         margin: 20px;
-        padding: $px-5;
+        padding: $px-10;
         width: $box-width-laptop;
-        border-radius: $px-5;
+        border-radius: $px-10;
         background-color: rgba(255, 255, 255, 0.2); 
         display: inline-block;
         text-align: left;
-        padding-left: $px-5;
+        padding-left: $px-10;
     }
     
-    #icons{
-        padding-left: 20%;
+    .icons{
+        display: block;
+        text-align: center;
         font-size: $icon-size;
     }
 
     #arrow-icon{
         color: white;
-        margin-top: $px-5;
+        margin-top: $px-10;
         margin-bottom: 317px;
     }
 }
